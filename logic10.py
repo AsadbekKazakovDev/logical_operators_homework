@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a>9
+a = 10
+print(main(a))
+a = 5
+print(main(a))
