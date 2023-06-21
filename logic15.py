@@ -6,4 +6,12 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    bir  = a//100
+    ikki = (a//10)%10
+    uch = a%10
+    summ = bir + ikki + uch
+    return summ%2==1
+a = 329
+print(main(a))
+a = 489
+print(main(a))
