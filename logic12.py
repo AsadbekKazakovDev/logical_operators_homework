@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    bir = a//10
+    ikki=a%10
+    return bir==ikki
+a = 32
+print(main(a))
+a = 66
+print(main(a))
