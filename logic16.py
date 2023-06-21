@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a>9999
+a = 2839
+print(main(a))
+a = 97939
+print(main(a))
+a = 549
+print(main(a))
