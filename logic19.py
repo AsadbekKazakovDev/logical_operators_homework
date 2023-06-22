@@ -8,4 +8,11 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    uch = (a//100)%10
+    turt = (a//10)%10
+    besh = a%10
+    return besh*100+turt*10+uch == a
+a = 121
+print(main(a))
+a = 189
+print(main(a))
